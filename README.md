@@ -13,10 +13,10 @@ Usage Examples
 Original Version
 bash
 # Query by target (gene)
-python original/opentargets_query_original.py -t ENSG00000197386
+python original/query_target.py -t ENSG00000197386
 
 # Query by disease
-python original/opentargets_query_original.py -d EFO_0000249
+python original/query_target.py -d EFO_0000249
 Sample Output 
 Diseases associated with target: ENSG00000197386 
 
